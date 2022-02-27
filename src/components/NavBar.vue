@@ -31,7 +31,7 @@ export default {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(255, 235, 244, 0.8);
+  background-color: rgb(255, 235, 244, 0.9);
   position: fixed;
   min-width: 100%;
 }
