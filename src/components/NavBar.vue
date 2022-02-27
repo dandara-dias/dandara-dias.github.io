@@ -31,7 +31,9 @@ export default {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(255, 235, 244);
+  background-color: rgb(255, 235, 244, 0.8);
+  position: fixed;
+  min-width: 100%;
 }
 
 li {
