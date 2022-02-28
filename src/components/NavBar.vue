@@ -28,12 +28,13 @@ export default {
 <style scoped lang="scss">
   ul {
   list-style-type: none;
-  margin: 0;
+  margin-top: -92px;
   padding: 0;
   overflow: hidden;
   background-color: rgb(255, 235, 244, 0.9);
   position: fixed;
   min-width: 100%;
+  z-index: 1;
 }
 
 li {
@@ -57,7 +58,7 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+li a:hover { //src: w3schools
   background-color: rgb(187, 139, 181);
 }
 
