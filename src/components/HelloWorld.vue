@@ -1,12 +1,13 @@
 <template>
   <div class="container projects">
     <h1>Olá!<br>Eu sou a Dandara,<br>web developer</h1>
-    <img src="../assets/avatar.png" align="right" alt="Avatar" />
+    <img :src="require('../assets/avatar.png')" align="right" alt="Avatar" />
     <div class="overlay"></div>
   </div>
 </template>
 
 <script>
+
 export default {
   name: 'HelloWorld',
   props: {
