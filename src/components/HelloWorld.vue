@@ -1,7 +1,7 @@
 <template>
   <div class="container projects">
     <h1>Olá!<br>Eu sou a Dandara,<br>web developer</h1>
-    <img src="@/assets/avatar.png" align="right" alt="Avatar" />
+    <img src="https://github.com/dandara-dias/dandara-dias.github.io/blob/master/src/assets/avatar.png?raw=true" align="right" alt="Avatar" />
     <div class="overlay"></div>
   </div>
 </template>
