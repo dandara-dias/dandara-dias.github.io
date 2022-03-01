@@ -1,23 +1,17 @@
 <template>
   <div class="container projects">
     <h1>Olá!<br>Eu sou a Dandara,<br>web developer</h1>
-    <img :src="myAvatar" align="right" alt="Avatar" />
+    <img src="@/assets/avatar.png" align="right" alt="Avatar" />
     <div class="overlay"></div>
   </div>
 </template>
 
 <script>
-import myAvatar from '../assets/avatar.png';
 
 export default {
   name: 'HelloWorld',
   props: {
     msg: String,
-  },
-  data() {
-    return {
-      myAvatar,
-    };
   },
 };
 </script>
