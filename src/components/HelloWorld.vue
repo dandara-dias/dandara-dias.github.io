@@ -1,6 +1,7 @@
 <template>
   <div class="container projects">
     <h1>Olá!<br>Eu sou a Dandara,<br>web developer</h1>
+    <img src="../assets/avatar.png" align="right" alt="Avatar" />
     <div class="overlay"></div>
   </div>
 </template>
@@ -30,6 +31,18 @@ h1 {
   position: relative;
   margin-left: 50px;
   font-family: 'Baloo 2', cursive;
+}
+
+img {
+  margin-top: -150px;
+  margin-right: 250px;
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+  animation: 1.2s slideIn forwards 1.5s;
+  z-index: 10;
+  opacity: 0;
+  position: relative;
 }
 
 h1::before {
