@@ -1,10 +1,15 @@
 <template>
-
+  <HelloWorld />
 </template>
 
 <script>
-export default {
+import HelloWorld from '../components/HelloWorld.vue';
 
+export default {
+  name: 'App',
+  components: {
+    HelloWorld,
+  },
 };
 </script>
 

@@ -13,7 +13,7 @@
     "core-js": "^3.8.3",
     "travis": "^0.1.1",
     "vue": "^3.2.13",
-    "vue-router": "^4.0.12",
+    "vue-router": "^4.0.13",
     "vue2-transitions": "^0.3.0"
   },
   "devDependencies": {
