@@ -4,7 +4,6 @@
       <li class="navbar-items"><router-link to="/">home</router-link></li>
       <li class="navbar-items"><router-link to="/about">about</router-link></li>
       <li class="navbar-items"><router-link to="/portfolio">portfolio</router-link></li>
-      <li class="navbar-items"><router-link to="/contact">contact</router-link></li>
       <li class="social-networks">
         <a href="https://www.linkedin.com/in/dandara-dias/" target="_blank">
           <img src="https://img.icons8.com/nolan/50/linkedin.png" alt="Linkedin link" />
@@ -29,7 +28,7 @@ export default {
   @media (max-width: 550px) and (max-height: 600px) {
     ul {
       list-style-type: none;
-      margin-top: -95px;
+      margin-top: -99px;
       background-color: rgb(255, 235, 244, 0.9);
       padding: 0;
       overflow: hidden;
