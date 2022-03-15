@@ -45,8 +45,8 @@ export default {
       display: flex;
       color: rgb(51, 30, 54);
       align-items: center;
-      padding: 12px 6px;
-      margin-left: 6px;
+      padding: 12px 4px;
+      margin-left: 4px;
       text-decoration: none;
       font-family: 'Quicksand', sans-serif;
     }
@@ -54,7 +54,7 @@ export default {
     .social-networks {
       align-content: center;
       margin: -10px;
-      margin-left: 2px;
+      margin-left: 1px;
     }
 
     li a:hover {
@@ -62,7 +62,7 @@ export default {
     }
 
     #navbar-icon {
-      margin-left: 6px;
+      margin-left: 4px;
     }
   }
 
