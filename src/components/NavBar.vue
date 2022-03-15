@@ -28,7 +28,7 @@ export default {
   @media (max-width: 550px) and (max-height: 600px) {
     ul {
       list-style-type: none;
-      margin-top: -99px;
+      margin-top: -98px;
       background-color: rgb(255, 235, 244, 0.9);
       padding: 0;
       overflow: hidden;
@@ -45,8 +45,8 @@ export default {
       display: flex;
       color: rgb(51, 30, 54);
       align-items: center;
-      padding: 12px 8px;
-      margin-left: 8px;
+      padding: 12px 6px;
+      margin-left: 6px;
       text-decoration: none;
       font-family: 'Quicksand', sans-serif;
     }
@@ -54,7 +54,7 @@ export default {
     .social-networks {
       align-content: center;
       margin: -10px;
-      margin-left: 3px;
+      margin-left: 2px;
     }
 
     li a:hover {
