@@ -78,32 +78,20 @@
     <span>
         <br>
         <p>
-            Sou uma Desenvolvedora Web Full-stack de 25 anos do RJ, que gosta muito de Back-end
-            e tem tendência a criar páginas fofinhas mesmo ainda sendo emo por dentro.
+            Sou Desenvolvedora Web Full-stack, com preferência por Back-end.
         </p>
         <p>
             Meus pontos fortes são a organização, proatividade e curiosidade. Também gosto muito
-            de aprender, principalmente sobre assuntos desafiadores. O que, na hora de escolher
-            um curso na faculdade, me levou ao curso mais difícil que eu poderia pensar: Física
-            Computacional. Spoiler: não estava errada.
+            de aprender, principalmente sobre assuntos desafiadores.
         </p>
         <p>
-            Apesar de Física ter sido minha matéria preferida no Ensino Médio (e Educação Física
-            a menos preferida), a parte computacional me chamou atenção pois até então o máximo
-            de contato que tive com programação foi para colocar glitter e player de música no
-            Tumblr. Achei que seria uma habilidade boa para se desenvolver.
-        </p>
-        <p>
-            O foco do curso era resolução de problemas, e não desenvolvimento web. Porém, foi o
-            grande responsável pelo desenvolvimento do meu raciocínio lógico e lógica de
-            programação. Traços que se mostraram extremamente importantes quando realmente
-            comecei a aprender desenvolvimento web pela Trybe.
+            Comecei a aprender desenvolvimento web pela <a href="https://www.betrybe.com/" target="_blank">Trybe</a>.
         </p>
         <p>
             Acredito que a minha convivência com a parte lógica (e interesse por tópicos
             difíceis) me levaram à preferência por Back-end. Mas ao mesmo tempo, meu lado
             criativo sempre me faz montar projetos (e quadros do Trello, apresentações no Canva,
-            rascunhos...) e colocar detalhes bonitinhos.
+            rascunhos...) e colocar detalhes mais personalizados.
         </p>
         <p>
             Meus hobbies são ler, assistir séries e animes, e jogar videogame. Também planejo
@@ -137,6 +125,10 @@ export default {
     padding: 20px;
     width: 80%;
 }
+
+    a {
+        text-decoration: none;
+    }
 
   @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 </style>
