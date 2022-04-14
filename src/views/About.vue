@@ -85,7 +85,7 @@
             de aprender, principalmente sobre assuntos desafiadores.
         </p>
         <p>
-            Comecei a aprender desenvolvimento web pela <a href="https://www.betrybe.com/" target="_blank">Trybe</a>.
+            Comecei a aprender desenvolvimento web pela Trybe.
         </p>
         <p>
             Acredito que a minha convivência com a parte lógica (e interesse por tópicos
@@ -108,6 +108,27 @@ export default {
 </script>
 
 <style>
+@media (max-width: 550px) and (max-height: 600px) {
+    body {
+    margin-top: 100px;
+    overflow-x: hidden;
+  }
+
+  span {
+    display: block;
+    margin: 0 auto;
+    align-content: center;
+    margin-left: 10px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 98%;
+    border-radius: 25px;
+    border: 2px solid #B36B80;
+    padding: 9px;
+    width: 90%;
+    }
+}
+
+@media (min-width: 551px) {
   body {
     margin-top: 100px;
     overflow-x: hidden;
@@ -124,11 +145,8 @@ export default {
     border: 2px solid #B36B80;
     padding: 20px;
     width: 80%;
-}
-
-    a {
-        text-decoration: none;
     }
+}
 
   @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 </style>
