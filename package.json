@@ -15,7 +15,8 @@
     "travis": "^0.1.1",
     "vue": "^3.2.13",
     "vue-router": "^4.0.13",
-    "vue2-transitions": "^0.3.0"
+    "vue2-transitions": "^0.3.0",
+    "vue3-carousel": "^0.1.38"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
