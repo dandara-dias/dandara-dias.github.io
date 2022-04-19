@@ -35,14 +35,14 @@ export default {
       images: [
         {
           id: 1,
-          url: 'https://github.com/dandara-dias/alura-doctor-who/raw/master/alura.gif',
-          repo: 'https://github.com/dandara-dias/alura-doctor-who',
+          url: 'https://alura-doctor-who.vercel.app/',
+          repo: 'https://alura-doctor-who.vercel.app/',
           cap: 'Aluracord - "clone" do Discord',
         },
         {
           id: 2,
-          url: 'https://github.com/dandara-dias/philips-dev-week/blob/master/philips-dev-week.gif?raw=true',
-          repo: 'https://github.com/dandara-dias/philips-dev-week',
+          url: 'https://philips-dev-week.vercel.app/exames',
+          repo: 'https://philips-dev-week.vercel.app/exames',
           cap: 'Philips Dev Week - sistema de consulta ao DataSUS',
         },
         {
