@@ -67,7 +67,36 @@ export default {
 </script>
 
 <style>
-.carousel__item {
+@media (max-width: 550px) and (max-height: 600px) {
+  .carousel__item {
+  height: 200px;
+  width: 100%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px;
+  }
+
+  a {
+  text-decoration: none;
+  }
+
+  .carousel__slide {
+  padding: 9px;
+  }
+
+  .carousel__prev,
+  .carousel__next {
+  box-sizing: content-box;
+  border: 5px solid white;
+  margin: 15%;
+  margin-top: 150px;
+  }
+}
+
+@media (min-width: 551px) {
+  .carousel__item {
   height: 400px;
   width: 100%;
   border-radius: 8px;
@@ -75,20 +104,21 @@ export default {
   justify-content: center;
   align-items: center;
   padding: 9px;
-}
+  }
 
-a {
+  a {
   text-decoration: none;
-}
+  }
 
-.carousel__slide {
+  .carousel__slide {
   padding: 9px;
-}
+  }
 
-.carousel__prev,
-.carousel__next {
+  .carousel__prev,
+  .carousel__next {
   box-sizing: content-box;
   border: 5px solid white;
   margin: 15%;
+  }
 }
 </style>
